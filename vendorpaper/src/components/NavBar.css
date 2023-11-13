@@ -1,0 +1,56 @@
+.navbar-container {
+    width: 100%;
+    height: 4rem;
+    /* background-color: rgb(250, 223, 165); */
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 2px 150px 2px 150px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.25rem solid #c1a8a8;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+
+
+}
+
+.navbar-logo {
+    /* flex: 1;
+    border-radius: 20px;
+    margin-left: 100px; */
+    /* background-color: black; */
+    /* width: 10%; */
+    height: 3rem;
+    flex: 2;
+}
+
+.navbar-searchbar {
+    background-color: white;
+    /* width: inherit; */
+    height: 3rem;
+    flex: 10;
+    border-radius: 25px;
+}
+
+.navbar-createbtn {
+    /* background-color: red; */
+    /* width: inherit; */
+    height: 3rem;
+    flex: 2;
+}
+
+.navbar-notification {
+    /* background-color: green; */
+    /* width: inherit; */
+    height: 3rem;
+    flex: 1;
+}
+
+.navbar-account {
+    /* width: inherit; */
+    height: 3rem;
+    flex: 2;
+    /* margin-right: 100px; */
+}

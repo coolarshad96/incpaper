@@ -1,0 +1,56 @@
+.homepage-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    flex-direction: row;
+}
+.homepage-body {
+ background-color:rgb(238, 234, 226);
+ flex: 5;
+ padding: 0.5rem;
+ display: flex;
+ flex-direction: row;
+}
+
+.homepage-right {
+    flex: 1;
+}
+
+.homepage-left {
+    flex: 1;
+}
+
+.main-section {
+    flex: 5;
+    background-color: whitesmoke;
+    border: 0.2rem solid #c1a8a8;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.region-section {
+    flex: 2;
+    border: 0.2rem solid #c1a8a8;
+    padding: 0.5rem;
+    /* margin-left: 0.5rem; */
+    border-radius: 10px;
+}
+.extra-section {
+    flex: 2;
+    border: 0.2rem solid #c1a8a8;
+    padding: 0.5rem;
+    /* margin-left: 0.5rem; */
+    border-radius: 10px;
+}
+.extra-section img {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+.main-section-tiles{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; */
+    column-count: 3; /* Number of columns */
+    column-gap: 10px; /* Adjust the gap between columns */
+}

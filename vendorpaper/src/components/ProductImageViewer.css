@@ -1,0 +1,36 @@
+.image-viewer-container{
+    width: 100%;
+    height: 400px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+}
+.image-viewer-pic{
+    width: 100%;
+    height: 300px;
+    /* background-color: brown; */
+
+}
+.image-viewer-pic img{
+    width: 100%;
+    height: 300px;
+}
+.image-viewer-gallary{
+    width: 100%;
+    height: 100px;
+    flex: 1;
+    /* background-color: rgb(24, 59, 90); */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+}
+.image-viewer-gallary img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+.image-viewer-gallary img::selection{
+    border: 1px solid rgb(245, 4, 4);
+}

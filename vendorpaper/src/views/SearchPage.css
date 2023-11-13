@@ -1,0 +1,220 @@
+.searchpage-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    flex-direction: row;
+}
+.searchpage-body {
+    background-color:rgb(238, 234, 226);
+    flex: 5;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+   
+.searchpage-right {
+       flex: 1;
+}
+   
+.searchpage-left {
+       flex: 1;
+}
+.main-section {
+    flex: 5;
+    background-color: whitesmoke;
+    border: 0.2rem solid #c1a8a8;
+    padding: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.region-section {
+    flex: 2;
+    border: 0.2rem solid #c1a8a8;
+    padding: 0.5rem;
+    /* margin-left: 0.5rem; */
+    border-radius: 10px;
+}
+.extra-section {
+    flex: 2;
+    border: 0.2rem solid #c1a8a8;
+    padding: 0.5rem;
+    /* margin-left: 0.5rem; */
+    border-radius: 10px;
+}
+
+/* .navbar{
+    background-color: rgb(149, 155, 155);
+    flex: 1;
+    min-height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem;
+    color: azure;
+}
+.header-logo{
+    flex: 1;
+    text-align: left;
+}
+.header-search-bar{
+    
+    flex: 3;
+}
+.header-search-bar input{
+    height: 1.5rem; 
+    width: 80%;
+}
+.header-userinfo{
+    flex: 1;
+    text-align: right;
+}
+.content-body{
+    flex: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.menu {
+    background-color: rgb(233, 241, 241);
+    flex: 1;
+}
+.menu-body{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.menu-heading{
+    
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: left;
+    
+}
+.category-title{
+    color: rgb(51, 48, 48);
+    font-size: large;
+    font-weight: 700;
+    margin: 0.5rem;
+    text-decoration-line: underline;
+    text-align: left;
+}
+.category-item{
+    color: rgb(121, 67, 67);
+    font-size:medium;
+    font-weight: 400;
+    margin: 0.25rem;
+  
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.search-body {
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+    min-height: 10rem;
+    flex: 3;
+    padding: 1rem;
+}
+.search-layout{
+    display: flex;
+    flex-direction: column;
+    border: 0.15rem solid black;
+    margin-bottom: 0.2rem;
+    justify-content: flex-start;
+    align-content: flex-end;
+    padding: 1rem;
+
+}
+.search-result{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end; 
+    flex: 3
+
+} */
+/* .search-company-logo{
+    flex: 1;
+    height: 8rem;
+}
+.search-result-tags{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-content:flex-end;
+    flex: 1;
+    margin-top: 0.25rem;
+}
+.search-result-tags div{
+    background-color: rgb(192, 86, 15);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+    color: white;
+}
+.search-company-contact{
+    flex: 2;
+    margin-left: 1rem;
+    text-align: left;
+} */
+/* .search-company-products{
+    flex: 2;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+}
+.search-company-products div{
+    background-color: rgb(16, 105, 75);
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    margin: 0.1rem;
+    color: white;
+    width: max-content;
+    height: max-content;
+}
+
+.filters {
+    background-color: rgb(95, 160, 160);
+    flex: 1;
+} */
+/* .filter-country{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.filter-country .country-name{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 0.5rem;
+    text-decoration-line: underline;
+
+}
+
+.filter-state{
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+.filter-state .state-name{
+    color: whitesmoke;
+    text-align: left;
+    text-decoration-line: underline;
+    font-size: large;
+    font-weight: 500;
+}
+.filter-state .city-name{
+    color: whitesmoke;
+    text-decoration-line: underline;
+    padding: 0.1rem;
+} */

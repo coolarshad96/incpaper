@@ -1,0 +1,250 @@
+/* .company-logo{ 
+    height: '5%';
+    width: '5%'; 
+} */
+.root{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.company-data{
+    margin-top: 10rem;
+}
+.company-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.25rem 2rem;
+
+}
+.company-logo{
+flex: 1;
+}
+.company-contact{
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.meta{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: left;
+    align-items:center; */
+}
+.company-meta1{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline;
+    flex-direction: row;
+    margin: 0.25rem 2rem;
+    flex-wrap: wrap;
+    justify-self: flex-start;
+}
+.company-meta2{
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items:baseline;
+    flex-direction: row;
+    margin: 0.25rem 2rem;
+    flex-wrap: wrap;
+    align-self: flex-end;
+}
+.company-name{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+.company-address{
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+.company-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 1rem;
+    min-height: '20%';
+    margin: 0 2rem;
+    /* background-color: blueviolet; */
+}
+.company-phone{
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+.company-email{
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+.company-website{
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+.company-fax{
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+.company-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: large;
+    justify-content:space-evenly;
+    align-content: center;
+}
+.company-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 1rem;
+    min-height: '20%';
+    margin: 0 2rem;
+}
+.company-opening-daytime{
+    /* font-size: large;
+    font-weight: 500;
+    font-family: sans-serif; */
+    /* flex: 1; */
+    width: '50%';
+    height: '30%';
+  
+    justify-items: flex-start;
+}
+.company-map{
+    width: '50%';
+    height: '20%';
+    /* font-size: large;
+    font-weight: 500;
+    font-family: sans-serif; */
+}
+.company-products{
+    /* font-size: large;
+    font-weight: 500;
+    font-family: sans-serif; */
+    /* font-size: large; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content:space-evenly;
+    align-content: center;
+
+}
+.product-item{
+    margin: 0.2rem;
+    padding: 0.2rem;
+    min-height: 15rem;
+    width: 45%;
+    /* background-color: powderblue; */
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+.item-img{
+
+}
+.item-detail{
+    font: 1em sans-serif;
+    font-size: medium;
+    align-self: center;
+}
+.item-detail p{
+    font-size: small;
+}
+.share-btn{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.company-ratings{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.company-reviews{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.company-views{
+    background-color: greenyellow;
+    border-radius: 25px;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.company-category{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.last-update{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.menu{
+    width: 35rem;
+    min-height: 100rem;
+    background-color: aqua;
+    align-self: start;
+}
+.filters{
+    width: 35rem;
+    min-height: 80rem;
+    background-color: aqua;
+    align-self: start;
+
+}

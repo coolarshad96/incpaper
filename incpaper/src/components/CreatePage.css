@@ -1,0 +1,11 @@
+.createpage-content{
+    height: 100vh;
+    background-color: antiquewhite;
+    width: 100%;
+}
+.createpage-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}

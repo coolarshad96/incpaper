@@ -1,0 +1,19 @@
+.product-tile-box{
+    width: 200px;
+    height: 240px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+}
+.product-tile-pic img{
+    width: 100%;
+    height: 180px;
+}
+.product-tile-name{
+    font-size: large;
+    font-weight: 400;
+}
+.product-tile-price{
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(241, 79, 4);
+}

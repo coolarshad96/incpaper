@@ -1,0 +1,21 @@
+/* Home.css */
+
+.companies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .company-box {
+    border: 2px solid #ff4c4c;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 31%;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  

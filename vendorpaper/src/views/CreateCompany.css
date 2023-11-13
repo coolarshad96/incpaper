@@ -1,0 +1,86 @@
+.companycreate-container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #943f3f; */
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+
+.companycreate-left{
+    flex: 1;
+   
+}
+.companycreate-right{
+    flex: 1;
+   
+}
+.companycreate-body{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.company-form{
+    text-align: start;
+}
+.company-form p{
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+} 
+label {
+    padding: 10px;
+    width: 25%;
+}
+input {
+    padding: 5px 10px;
+    width: 75%;
+}
+.company-form input[type="submit"] {
+    padding: 5px 10px;
+    width: 100%;
+}
+input[type='file'] {
+    padding: 5px 10px;
+    width: 25%;
+}
+
+.company-images{
+    text-align: start;
+}
+.company-images p{
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+} 
+.company-images-btns{
+    display: flex;
+
+}
+.company-working-time{
+}
+.company-working-time table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.company-working-time p{
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+} 
+.company-working-time input[type="submit"] {
+    padding: 5px 10px;
+    width: 100%;
+}

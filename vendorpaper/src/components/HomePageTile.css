@@ -1,0 +1,23 @@
+.tile-container{
+    /* flex-basis: calc(33.33% - 20px);
+  background-color: #f2f2f2;
+  padding: 10px; */
+  break-inside: avoid;
+  margin-bottom: 10px; /* Adjust the gap between items vertically */
+  /* Add styles for your masonry items */
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.tile-title{
+    width: inherit;
+    text-decoration:underline;
+    margin: 5px;
+    padding: 5px;
+    background-color: gray;
+    color: whitesmoke;
+}
+.tile-item:hover{
+    background-color: azure;
+    text-decoration: underline;
+    color: blue;
+}

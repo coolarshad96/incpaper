@@ -1,0 +1,26 @@
+.product-container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    flex-direction: row;
+}
+.homepage-left{
+    flex: 1;
+}
+.homepage-right{
+    flex: 1;
+}
+.product-content{
+    flex: 5;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+.product-detail{
+    text-align: left;
+}
+.product-detail p{
+    margin: 0;
+    text-decoration: none;
+}
